@@ -1,8 +1,8 @@
 # Plantilla del cask de Homebrew. La rellena `node scripts/release.mjs cask`
 # en el workflow de release y el resultado se publica en HurgotDev/homebrew-tap.
 cask "pilas" do
-  version "0.2.0"
-  sha256 "1d65ac0d4916138172594414698019fc04bb1dfb2d5a03bb9bd8ba897d31f827"
+  version "0.3.0"
+  sha256 "420ca95ed3869a9a13baf746d1920be8a6a848c16c6e7f5b7b0e0ca314ef2d8b"
 
   url "https://github.com/HurgotDev/pilas-app/releases/download/v#{version}/Pilas_#{version}_universal.dmg"
   name "Pilas"
